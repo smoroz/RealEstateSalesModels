@@ -78,7 +78,7 @@ The result is ~1.1M property sale records with ZIP codes attached, enabling geog
 
 Three regional views built on the cleaned output, each filtered by ZIP code geography:
 
-**All of Connecticut**
+**All of Connecticut 2009**
 - Avg Sale Amount: $326K · 32.68K records · Sales Ratio: 159.59%
 
 **Northern/Central CT (Hartford region)**
@@ -106,9 +106,3 @@ pip install pandas geopandas shapely requests
 ```
 
 ---
-
-## Notes
-
-- The Census ZCTA shapefile uses EPSG:4269; OpenAddresses uses EPSG:4326. The pipeline runs the spatial join without reprojecting (triggering a warning) — for production use, add `zcta.to_crs("EPSG:4326")` before the join.
-- Azure Maps API key is required for the geocoding fallback step and should be stored as an environment variable, not hardcoded.
-- `SettingWithCopyWarning` in the geocoding step is benign but can be resolved by replacing slice assignments with `.loc[]` indexing.
