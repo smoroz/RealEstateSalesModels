@@ -1,4 +1,4 @@
-<img width="1307" height="740" alt="screenshot1" src="https://github.com/user-attachments/assets/4e7b69ea-42b1-4701-a731-b9fc9fb6b522" />
+
 # Connecticut Real Estate Data Pipeline
 
 A data pipeline that consolidates 22 years of Connecticut real estate sales (2001–2022), enriches each record with a ZIP code, and outputs a clean, analysis-ready dataset visualized in Power BI.
@@ -80,13 +80,16 @@ The result is ~1.1M property sale records with ZIP codes attached, enabling geog
 Three regional views built on the cleaned output, each filtered by ZIP code geography:
 
 **All of Connecticut 2009**
+<img width="1307" height="740" alt="screenshot1" src="https://github.com/user-attachments/assets/4e7b69ea-42b1-4701-a731-b9fc9fb6b522" />
 - Avg Sale Amount: $326K · 32.68K records · Sales Ratio: 159.59%
 
 **Northern/Central CT (Hartford region)**
+<img width="1314" height="742" alt="screenshot2" src="https://github.com/user-attachments/assets/be850c35-f87e-4e68-aa3f-3677387019a3" />
 - Avg Sale Amount: $445K · 12.05K records · Sales Ratio: 106.15%
 
 **Coastal CT (New Haven / Shoreline)**
 - Avg Sale Amount: $344K · 4.71K records · Sales Ratio: 83.92%
+<img width="1315" height="739" alt="screenshot3" src="https://github.com/user-attachments/assets/c785eccb-56b7-4014-81ff-9fb8f78dbb8c" />
 
 All views show assessed value vs. sale amount trends from 2001–2022 with a linear trend overlay.
 
