@@ -1,3 +1,4 @@
+<img width="1307" height="740" alt="screenshot1" src="https://github.com/user-attachments/assets/4e7b69ea-42b1-4701-a731-b9fc9fb6b522" />
 # Connecticut Real Estate Data Pipeline
 
 A data pipeline that consolidates 22 years of Connecticut real estate sales (2001–2022), enriches each record with a ZIP code, and outputs a clean, analysis-ready dataset visualized in Power BI.
